@@ -1,0 +1,66 @@
+/*PC*/
+@media (max-width: 1024px) {
+	#header .mobile-menu-btn {
+		display: none;
+	}
+}
+/*Tablet*/
+@media (max-width: 740px) and (max-width: 1023px) {
+	#header .mobile-menu-btn {
+		display: none;
+	}
+}
+/*Mobile*/
+@media (max-width: 740px) {
+	.mobile {
+		display: block;
+	}
+	.mt-8 {
+		margin-top: 8px;
+	}
+	.s-col-full {
+		width: 100%;
+	}
+	#header {
+		overflow: hidden;
+	}
+	#header .search-btn {
+		display: none;
+	}
+	#header .mobile-menu-btn {
+		display: flex;
+		display: flex;
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+	#nav {
+		display: block;
+	}
+	#nav .subnav {
+		position: initial;
+		background-color: #333;
+	}
+	#nav .subnav li > a {
+		color: white;
+		padding: 0 41px;
+	}
+	#nav > li:first-child {
+		display: inline-block;
+	}
+	#nav > li {
+		display: block;
+	}
+	#nav li a {
+		padding: 1px 24px;
+	}
+	#content .member-img {
+		width: 60%;
+	}
+	.place-buy-btn {
+		width: 100%;
+	}
+	input.btn {
+		width: 100%;
+	}
+}
